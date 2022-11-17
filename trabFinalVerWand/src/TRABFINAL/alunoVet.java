@@ -71,7 +71,7 @@ public class alunoVet {
 		}
 		
 		//Grava dados de um professor no arquivo
-		ManipulaArquivo.escritor("ALUNO.csv", linha);
+		ManipulaArquivo.escritor("ALUNOS.csv", linha);
 	}
 	
 	
