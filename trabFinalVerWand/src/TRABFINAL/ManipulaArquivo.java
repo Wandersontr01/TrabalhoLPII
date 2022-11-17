@@ -1,4 +1,4 @@
-package trabalho_final;
+package TRABFINAL;
 
 import java.io.FileWriter;
 import java.io.IOException;

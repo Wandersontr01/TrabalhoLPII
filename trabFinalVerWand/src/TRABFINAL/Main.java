@@ -1,11 +1,12 @@
+package TRABFINAL;
+
+import java.util.*;
 
 public class Main {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		// TODO Auto-generated method stub
-		Scanner entrada = new Scanner(System.in);
-		
+	
 		//MENU DE ESCOLHA
 		System.out.println("\n=============== BIBLIOTECA DO(A) XXXXXXXXXX TESTE2===============");
 		char op = 0;
@@ -33,8 +34,6 @@ public class Main {
 				
 				break;
 			case '4':
-				CadastroAluno sys = new CadastroAluno();
-				sys.cadastroAluno();
 				break;
 			case 5:
 				
