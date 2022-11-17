@@ -1,12 +1,15 @@
 package TRABFINAL;
 
 import java.util.*;
+import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Scanner entrada = new Scanner(System.in);
-	
+		alunoVet alunos = new alunoVet(100);
+		
 		//MENU DE ESCOLHA
 		System.out.println("\n=============== BIBLIOTECA DO(A) XXXXXXXXXX TESTE2===============");
 		char op = 0;
@@ -34,6 +37,7 @@ public class Main {
 				
 				break;
 			case '4':
+				alunos.cadastrar();
 				break;
 			case 5:
 				
