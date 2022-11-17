@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Windows
- *
- */
-module trabFinalVerWand {
-}
